@@ -1,0 +1,18 @@
+Configured IHCM (Informatica Healthcare Model) data model for BCBSMA.
+Configured Informatica MDM outbound jobs to Salesforce.
+Created the elements of the data model that are used to contain data from different kinds of tables for batch processing using the Hub Console Schema tool.
+Defined relationships within the data model that is used to create affiliation between base object tables using the Hub Console Schema tool.
+Defined lookups in a data model to help retrieve data from parent tables during the load process using the Hub Console Schema tool.
+Configured the stage process for the Informatica MDM Hub by creating mappings that use functions and cleanse lists to map, move, and cleanse data between the landing and the staging table using the Mapping tool.
+Configured the stage process for the Informatica MDM Hub by setting options for Delta Detection, Raw data retention, and the Cleanse Server to prepare to run the Stage batch job using the Schema tool, the Match Server tool, and the Batch Viewer tool.
+Configured the load process for the Informatica MDM Hub to compare the relative reliability of column data from different source systems (Trust) and to specify the conditions under which the column data values are not valid (validation rules) using the Schema tool, the Batch Viewer tool, and System & Trust tool.
+Managed setting up the data and configuring the components (Entities, Entity Types, Relationships) needed by Hierarchy Manager.
+Configured exact matching in the Informatica MDM Hub to match identical records in base objects using the Schema tool.
+Configure fuzzy matching in the Informatica MDM Hub to perform a Probabilistic match in base objects using the Schema tool.
+Configured the merge process by setting rules in the Informatica MDM Hub to consolidate data from matched records into a single, master record.
+Created queries and packages to provide data views for Data Manager (used to view records in the base object), Merge Manner (used to review records queued for consolidation), Informatica Data Director, and Security Integration Framework using the MDM Hub Queries tool.
+Configured Batch Jobs to execute the stage, load, match and merge processes from within Stored Procedures.
+Utilized data management tools in the Informatica Hub to manually search, edit, flag, and merge records queued for merging and additionally unmerge records in the base object.
+Utilized Enterprise Manger to view properties, version history, and environment reports for MDM Hub components and to configure database logs for ORS databases.
+Involved in discussions with Data Steward Team for designing and configuring Applications using Informatica Data Director (IDD).
+Utilized Metadata Manager to Validate, Import and Export ORS schemas and promote Change Lists.
